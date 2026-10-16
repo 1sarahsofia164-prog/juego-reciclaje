@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang='es'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>VAMOS A RECICLAR</title>
+  <link rel='stylesheet' href='estilos.css'>
+</head>
+<body>
+  <h1>-Separa la basura-</h1>
+  <p class='estado' id='estado'>Arrastra cada residuo al bote correcto.</p>
+
+  <div class='botes'>
+    <div class='bote organico' data-tipo='organico'>
+      <span class='contador'>0</span><b>Orgánicos</b><small>restos de comida</small>
+    </div>
+    <div class='bote vidrio' data-tipo='vidrio'>
+      <span class='contador'>0</span><b>Vidrio</b><small>envases de vidrio</small>
+    </div>
+    <div class='bote plastico' data-tipo='plastico'>
+      <span class='contador'>0</span><b>Plástico y latas</b><small>envases</small>
+    </div>
+  </div>
+
+  <div class='suelo' id='suelo'></div>
+  <button id='reiniciar'>Reiniciar</button>
+
+  <script src='script.js'></script>
+</body>
+</html>
